@@ -1,0 +1,14 @@
+ x=seq(1970,1995,5);x
+y=c(162.8,169.7,183.9,193.3,203.2,204.7);y
+z=c(160.1,170.8,186.6,190.4,199.7,208.9);z
+u=cbind(x,y,z)
+matplot(u[,1],u[,2:3],type="l")
+plot(x,y,type="l");
+plot(x,y,type="h",xlab="HELLO",ylab="hii");
+n=month.name;n  
+b=LETTERS;b
+b=LETTERS[1:9];b
+s=month.abb;s
+y=c(162.8,169.7,183.9,193.3,203.2,204.7,7,999,888,777,666,555);y
+plot(1:12,,y,type="l",xaxt="none",xlab=s)
+axis(side=1,at=1:12,labels=s)
